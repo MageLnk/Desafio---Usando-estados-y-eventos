@@ -18,7 +18,7 @@ const App = () => {
       </div>
       {password === "252525" && (
         <>
-          <span style={{ margin: "0.3rem" }}>¡Bienvenido al club {user}!</span>
+          <span style={{ margin: "0.3rem" }}>¡Bienvenido al club {!user ? "Extraño" : user}!</span>
           <button
             className="app-button"
             onClick={() => {
