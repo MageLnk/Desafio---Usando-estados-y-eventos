@@ -2,3 +2,38 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: wheat;
+}
+
+.app-container .app-titles {
+  margin: 0.7rem;
+}
+
+.app-container .app-inputs {
+  margin: 0.6rem;
+}
+
+.app-container .app-inputs input {
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.app-container .app-button {
+  color: white;
+  background-color: #096dd9;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+.app-container .app-button:hover {
+  background-color: #40a9ff;
+}
